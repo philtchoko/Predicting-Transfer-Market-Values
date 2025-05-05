@@ -1,0 +1,567 @@
+---
+title: "Philippe Tchokokam Transfer Market Capstone"
+output: html_document
+date: "2025-02-25"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+
+library(worldfootballR)
+
+mapped_players <- player_dictionary_mapping()
+
+
+```
+
+
+```{r}
+# transfer market values of top 50 most valued players across different leagues in europe
+
+top50_prem <- read.csv("/Users/philtchoko/Desktop/DATS4001/top50_prem_prices.csv")
+top50_prem <- subset(top50_prem, select = -c(X, X.1))
+top50_laliga <- read.csv("/Users/philtchoko/Desktop/DATS4001/top50_laliga.csv")
+top50_laliga <- subset(top50_laliga, select = -c(X, X.1, X.2))
+top50_seriea <- read.csv("/Users/philtchoko/Desktop/DATS4001/top50_seriea.csv")
+top50_seriea <- subset(top50_seriea, select = -c(X, X.1))
+top50_ligue1 <- read.csv("/Users/philtchoko/Desktop/DATS4001/top50_ligue1.csv")
+top50_bundes <- read.csv("/Users/philtchoko/Desktop/DATS4001/top50_bundes.csv")
+top50_bundes <- subset(top50_bundes, select = -c(X, X.1))
+top50_belg <- read.csv("/Users/philtchoko/Desktop/DATS4001/top50_belg.csv")
+top50_belg <- subset(top50_belg, select = c(Team, Player, Value, Position, Age))
+top50_liga_p <- read.csv("/Users/philtchoko/Desktop/DATS4001/top50_portug.csv")
+top50_liga_p <- subset(top50_liga_p, select = -c(X, X.1))
+
+
+
+
+```
+
+```{r}
+# important bio data for players
+
+prem_league_urls <- fb_league_urls(country = "ENG", gender = "M", season_end_year = 2024, tier = "1st")
+laliga_league_urls <- fb_league_urls(country = "ESP", gender = "M", season_end_year = 2024, tier = "1st")
+bundes_league_urls <- fb_league_urls(country = "GER", gender = "M", season_end_year = 2024, tier = "1st")
+ligue1_league_urls <- fb_league_urls(country = "FRA", gender = "M", season_end_year = 2024, tier = "1st")
+portug_league_urls <- fb_league_urls(country = "POR", gender = "M", season_end_year = 2024, tier = "1st")
+seriea_league_urls <- fb_league_urls(country = "ITA", gender = "M", season_end_year = 2024, tier = "1st")
+belg_league_urls <- fb_league_urls(country = "BEL", gender = "M", season_end_year = 2024, tier = "1st")
+
+prem_team_urls <- fb_teams_urls(prem_league_urls)
+laliga_team_urls <- fb_teams_urls(laliga_league_urls)
+bundes_team_urls <- fb_teams_urls(bundes_league_urls)
+ligue1_team_urls <- fb_teams_urls(ligue1_league_urls)
+portug_team_urls <- fb_teams_urls(portug_league_urls)
+seriea_team_urls <- fb_teams_urls(seriea_league_urls)
+belg_team_urls <- fb_teams_urls(belg_league_urls)
+
+
+
+```
+
+```{r}
+
+laliga_stats <- fb_team_player_stats(laliga_team_urls, "standard", time_pause = 7)
+bundes_stats <- fb_team_player_stats(bundes_team_urls, "standard", time_pause = 7)
+ligue1_stats <- fb_team_player_stats(ligue1_team_urls, "standard", time_pause = 7)
+portug_stats <- fb_team_player_stats(portug_team_urls, "standard", time_pause = 7)
+seriea_stats <- fb_team_player_stats(seriea_team_urls, "standard", time_pause = 7)
+belg_stats <- fb_team_player_stats(belg_team_urls, "standard", time_pause = 7)
+prem_stats <- fb_team_player_stats(prem_team_urls, "standard", time_pause = 7)
+
+
+```
+
+```{r}
+
+# prem stats related to shootings
+
+prem_defense <- fb_team_player_stats(prem_team_urls, "defense", time_pause = 6)
+laliga_defense <- fb_team_player_stats(laliga_team_urls, "defense", time_pause = 7)
+bundes_defense <- fb_team_player_stats(bundes_team_urls, "defense", time_pause = 7)
+ligue1_defense <- fb_team_player_stats(ligue1_team_urls, "defense", time_pause = 7)
+```
+
+```{r}
+#portug_defense <- fb_team_player_stats(portug_team_urls, "defense", time_pause = 7)
+seriea_defense <- fb_team_player_stats(seriea_team_urls, "defense", time_pause = 7)
+#belg_defense <- fb_team_player_stats(belg_team_urls, "defense", time_pause = 7)
+
+
+```
+
+
+```{r}
+prem_passing <- fb_team_player_stats(prem_team_urls, "passing", time_pause = 7)
+laliga_passing <- fb_team_player_stats(laliga_team_urls, "passing", time_pause = 7)
+```
+
+```{r}
+bundes_passing <- fb_team_player_stats(bundes_team_urls, "passing", time_pause = 7)
+ligue1_passing <- fb_team_player_stats(ligue1_team_urls, "passing", time_pause = 7)
+```
+
+```{r}
+#portug_passing <- fb_team_player_stats(portug_team_urls, "passing", time_pause = 7)
+seriea_passing <- fb_team_player_stats(seriea_team_urls, "passing", time_pause = 7)
+#belg_passing <- fb_team_player_stats(belg_team_urls, "passing", time_pause = 7)
+
+
+```
+```{r}
+#shooting 
+ligue1_shooting <- fb_team_player_stats(ligue1_team_urls, "shooting", time_pause = 7)
+prem_shooting <- fb_team_player_stats(prem_team_urls, "shooting", time_pause = 7)
+laliga_shooting <- fb_team_player_stats(laliga_team_urls, "shooting", time_pause = 7)
+bundes_shooting <- fb_team_player_stats(bundes_team_urls, "shooting", time_pause = 7)
+seriea_shooting <- fb_team_player_stats(seriea_team_urls, "shooting", time_pause = 7)
+
+```
+
+```{r}
+ligue1_possession <- fb_team_player_stats(ligue1_team_urls, "possession", time_pause = 7)
+prem_possession <- fb_team_player_stats(prem_team_urls, "possession", time_pause = 7)
+```
+
+```{r}
+laliga_possession <- fb_team_player_stats(laliga_team_urls, "possession", time_pause = 7)
+
+```
+#bundes_possession <- fb_team_player_stats(bundes_team_urls, "possession", time_pause = 7)
+```{r}
+seriea_possession <- fb_team_player_stats(seriea_team_urls, "possession", time_pause = 7)
+
+```
+
+```{r}
+bundes_possession <- fb_team_player_stats(bundes_team_urls, "possession", time_pause = 7)
+
+
+```
+
+
+
+```{r}
+# performing inner join between transfer market values and statistical data for all leagues
+
+library(dplyr)
+
+prem_stats$Age <- as.numeric(prem_stats$Age)
+
+
+prem_stats_market_vals <- inner_join(top50_prem, prem_stats, by=c("Player"))
+
+prem_passing_stats_market_vals <- inner_join(top50_prem, prem_passing, by=c("Player"))
+
+prem_defense_stats_market_vals <- inner_join(top50_prem, prem_defense, by=c("Player"))
+
+prem_shooting_stats_market_vals <- inner_join(top50_prem, prem_shooting, by=c("Player"))
+
+prem_possession_stats_market_vals <- inner_join(top50_prem, prem_possession, by=c("Player"))
+```
+
+```{r}
+
+laliga_stats$Age <- as.numeric(laliga_stats$Age)
+
+laliga_stats_market_vals <- inner_join(top50_laliga, laliga_stats, by=c("Player"))
+
+laliga_passing_stats_market_vals <- inner_join(top50_laliga, laliga_passing, by=c("Player"))
+
+laliga_defense_stats_market_vals <- inner_join(top50_laliga, laliga_defense, by=c("Player"))
+
+laliga_shooting_stats_market_vals <- inner_join(top50_laliga, laliga_shooting, by=c("Player"))
+
+laliga_possession_stats_market_vals <- inner_join(top50_laliga, laliga_possession, by=c("Player"))
+
+
+```
+
+```{r}
+
+seriea_stats$Age <- as.numeric(seriea_stats$Age)
+
+seriea_stats_market_vals <- inner_join(top50_seriea, seriea_stats, by=c("Player"))
+
+seriea_passing_stats_market_vals <- inner_join(top50_seriea, seriea_passing, by=c("Player"))
+
+seriea_defense_stats_market_vals <- inner_join(top50_seriea, seriea_defense, by=c("Player"))
+
+seriea_shooting_stats_market_vals <- inner_join(top50_seriea, seriea_shooting, by=c("Player"))
+
+seriea_possession_stats_market_vals <- inner_join(top50_seriea, seriea_possession, by=c("Player"))
+
+
+
+```
+
+```{r}
+
+bundes_stats$Age <- as.numeric(bundes_stats$Age)
+
+bundes_stats_market_vals <- inner_join(top50_bundes, bundes_stats, by=c("Player"))
+
+bundes_passing_stats_market_vals <- inner_join(top50_bundes, bundes_passing, by=c("Player"))
+
+bundes_defense_stats_market_vals <- inner_join(top50_bundes, bundes_defense, by=c("Player"))
+
+bundes_shooting_stats_market_vals <- inner_join(top50_bundes, bundes_shooting, by=c("Player"))
+
+bundes_possession_stats_market_vals <- inner_join(top50_bundes, bundes_possession, by=c("Player"))
+
+
+```
+
+```{r}
+
+ligue1_stats$Age <- as.numeric(ligue1_stats$Age)
+
+ligue1_stats_market_vals <- inner_join(top50_ligue1, ligue1_stats, by=c("Player"))
+
+ligue1_passing_stats_market_vals <- inner_join(top50_ligue1, ligue1_passing, by=c("Player"))
+
+ligue1_defense_stats_market_vals <- inner_join(top50_ligue1, ligue1_defense, by=c("Player"))
+
+ligue1_shooting_stats_market_vals <- inner_join(top50_ligue1, ligue1_shooting, by=c("Player"))
+
+ligue1_possession_stats_market_vals <- inner_join(top50_ligue1, ligue1_possession, by=c("Player"))
+
+
+
+```
+
+
+```{r}
+#cleaning column names
+
+prem_stats_market_vals <- subset(prem_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+#cols_to_remove <- grep("Per_Minutes$", colnames(prem_stats_market_vals))
+
+#prem_stats_market_vals <- prem_stats_market_vals[, -cols_to_remove]
+
+#prem_shooting_stats_market_vals <- prem_shooting_stats_market_vals[, -cols_to_remove]
+
+prem_defense_stats_market_vals <- subset(prem_defense_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+prem_passing_stats_market_vals <- subset(prem_passing_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+prem_shooting_stats_market_vals <- subset(prem_shooting_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+prem_possession_stats_market_vals <- subset(prem_possession_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+
+
+```
+
+```{r}
+#cleaning seriea
+
+seriea_stats_market_vals <- subset(seriea_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+#cols_to_remove <- grep("Per_Minutes$", colnames(seriea_stats_market_vals))
+
+#seriea_stats_market_vals <- seriea_stats_market_vals[, -cols_to_remove]
+
+#seriea_shootings_stats_market_vals <- seriea_shooting_stats_market_vals[, -cols_to_remove]
+
+seriea_defense_stats_market_vals <- subset(seriea_defense_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+seriea_passing_stats_market_vals <- subset(seriea_passing_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+seriea_shooting_stats_market_vals <- subset(seriea_shooting_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+seriea_possession_stats_market_vals <- subset(seriea_possession_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+
+```
+
+```{r}
+
+bundes_stats_market_vals <- subset(bundes_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+#cols_to_remove <- grep("Per_Minutes$", colnames(bundes_stats_market_vals))
+
+#bundes_stats_market_vals <- bundes_stats_market_vals[, -cols_to_remove]
+
+#bundes_shooting_stats_market_vals <- bundes_shooting_stats_market_vals[, -cols_to_remove]
+
+bundes_defense_stats_market_vals <- subset(bundes_defense_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+bundes_passing_stats_market_vals <- subset(bundes_passing_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+bundes_shooting_stats_market_vals <- subset(bundes_shooting_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+bundes_possession_stats_market_vals <- subset(bundes_possession_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+```
+
+```{r}
+
+# Data Cleaning - la liga
+
+laliga_stats_market_vals <- subset(laliga_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+#cols_to_remove <- grep("Per_Minutes$", colnames(laliga_stats_market_vals))
+
+#laliga_stats_market_vals <- laliga_stats_market_vals[, -cols_to_remove]
+
+#lailiga_shooting_stats_market_vals <- laliga_shooting_stats_market_vals[, -cols_to_remove]
+
+laliga_defense_stats_market_vals <- subset(laliga_defense_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+laliga_passing_stats_market_vals <- subset(laliga_passing_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+laliga_shooting_stats_market_vals <- subset(laliga_shooting_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+laliga_possession_stats_market_vals <- subset(laliga_possession_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+
+```
+
+```{r}
+
+# Data Cleaning - Ligue 1
+
+ligue1_stats_market_vals <- subset(ligue1_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+#cols_to_remove <- grep("Per_Minutes$", colnames(ligue1_stats_market_vals))
+
+#ligue1_stats_market_vals <- ligue1_stats_market_vals[, -cols_to_remove]
+
+#ligue1_shooting_stats_market_vals <- ligue1_shooting_stats_market_vals[, -cols_to_remove]
+
+ligue1_defense_stats_market_vals <- subset(ligue1_defense_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+ligue1_passing_stats_market_vals <- subset(ligue1_passing_stats_market_vals, select = -c(Age.y, Pos, Squad))
+
+ligue1_possession_stats_market_vals <- subset(ligue1_possession_stats_market_vals, select= -c(Age.y, Pos, Squad))
+
+```
+
+```{r}
+#offense and midfield stats 
+
+ligue1_offense_stats <- full_join(ligue1_stats_market_vals, ligue1_shooting_stats_market_vals, by= c("Player"))
+
+laliga_offense_stats <- full_join(laliga_stats_market_vals, laliga_shooting_stats_market_vals, by= c("Player"))
+
+bundes_offense_stats <- full_join(bundes_stats_market_vals, bundes_shooting_stats_market_vals, by= c("Player"))
+
+seriea_offense_stats <- full_join(seriea_stats_market_vals, seriea_shooting_stats_market_vals, by= c("Player"))
+
+prem_offense_stats <- full_join(prem_stats_market_vals, prem_shooting_stats_market_vals, by= c("Player"))
+
+
+ligue1_midfield_stats <- full_join(ligue1_passing_stats_market_vals, ligue1_possession_stats_market_vals, by= c("Player"))
+
+laliga_midfield_stats <- full_join(laliga_passing_stats_market_vals, laliga_possession_stats_market_vals, by= c("Player"))
+
+seriea_midfield_stats <- full_join(seriea_passing_stats_market_vals, seriea_possession_stats_market_vals, by= c("Player"))
+
+bundes_midfield_stats <- full_join(bundes_passing_stats_market_vals, bundes_possession_stats_market_vals, by= c("Player"))
+
+prem_midfield_stats <- full_join(prem_passing_stats_market_vals, prem_possession_stats_market_vals, by= c("Player"))
+
+
+
+
+
+```
+
+```{r}
+library(dplyr)
+#standard stats joins
+
+prem_ligue1_offense <- full_join(prem_offense_stats, ligue1_offense_stats)
+bundes_laliga_offense <- full_join(bundes_offense_stats, laliga_offense_stats)
+
+four_league_offense <- full_join(prem_ligue1_offense, bundes_laliga_offense)
+
+
+all_leagues_offense <- full_join(four_league_offense, seriea_offense_stats)
+
+#all_leagues_offense$Position <- factor(all_leagues_stan$Position, levels = c("GK","DF", "MF", "FW"), ordered = TRUE)
+
+
+all_leagues_stan_fowards <- all_leagues_stan |>
+      filter(Position == "FW")
+```
+
+```{r}
+#merging passing and possession data
+prem_ligue1_midfield <- full_join(prem_midfield_stats, ligue1_midfield_stats)
+bundes_laliga_midfield <- full_join(bundes_midfield_stats, laliga_midfield_stats)
+
+four_league_midfield <- full_join(prem_ligue1_midfield, bundes_laliga_midfield)
+
+
+all_leagues_midfield <- full_join(four_league_midfield, seriea_midfield_stats)
+#all_leagues_pass$Position <- factor(all_leagues_pass$Position, levels = c("GK", "DF", "MF", "FW"), ordered = TRUE)
+
+#all_leagues_pass_midfielders <- all_leagues_pass |>
+#      filter(Position == "MF")
+```
+
+```{r}
+# merging defensive data
+prem_ligue1_defense <- full_join(prem_defense_stats_market_vals, ligue1_defense_stats_market_vals)
+bundes_laliga_defense <- full_join(bundes_defense_stats_market_vals, laliga_defense_stats_market_vals)
+
+four_league_defense <- full_join(prem_ligue1_defense, bundes_laliga_defense)
+
+
+all_leagues_defense <- full_join(four_league_defense, seriea_defense_stats_market_vals)
+all_leagues_defense$Position <-  factor(all_leagues_defense$Position, levels = c("GK","DF", "MF", "FW"))
+
+#all_leagues_defense_defenders <- all_leagues_defense |>
+#    filter(Position == "DF")
+
+```
+
+```{r}
+library(dplyr)
+#performing correlation plot on data
+
+# removing non-numeric data to use for correlation plots
+#num_all_leagues_stan <- subset(all_leagues_stan, select = -c(Team, Apps, Position, Player, Season, Comp, Nation, PlayerURL, MP_Playing_Time))
+
+#num_all_leagues_stan <- subset(num_all_leagues_stan, select = -c(Mins_Per_90_Playing_Time, G_minus_PK, PKatt, CrdY, CrdR, npxG_Expected, PrgC_Progression, PrgP_Progression, PrgR_Progression))
+
+# to use in ML model
+
+
+all_leagues_offense <- subset(all_leagues_offense, select = c(Team.x, Player, Value.x, Position.x, MP, Starts_Playing_Time, Min_Playing_Time, Mins_Per_90_Playing_Time, Gls_Per_Minutes, Age.x.x, Apps.x, Season.x, Comp.x, Nation.x, PK,Gls, Ast, `G+A`, xG_Expected.x, xAG_Expected, Sh_Standard, SoT_percent_Standard))
+
+all_leagues_offense <- all_leagues_offense |> rename_at('Value.x',~'Value')
+
+                                                            
+#all_leagues_offense <- subset(all_leagues_offense, select = -c(Mins_Per_90_Playing_Time, G_minus_PK, PKatt, CrdY, CrdR, npxG_Expected.x, xG_Expected.x, PrgC_Progression, PrgP_Progression, PrgR_Progression, Mins_Per_90))
+
+```
+
+```{R}
+
+write.csv(all_leagues_offense, "/Users/philtchoko/Desktop/DATS4001/all_leagues_offense.csv", row.names = TRUE)
+
+```
+
+```{r}
+#num_all_leagues_defense <- subset(all_leagues_defense, select = -c(Team, Apps, Player, Season, Comp, Nation, PlayerURL))
+
+
+#num_all_leagues_defense$Tackles <- rowSums(num_all_leagues_defense[, c("Def 3rd_Tackles", "Mid 3rd_Tackles", "Att 3rd_Tackles")], na.rm = TRUE)
+
+#num_all_leagues_defense$Blocks <- rowSums(num_all_leagues_defense[, c("Blocks_Blocks", "Sh_Blocks", "Pass_Blocks")], na.rm = TRUE)
+
+all_leagues_defense <- subset(all_leagues_defense, select = -c(Team, Apps, Player, Season, Comp, Nation, PlayerURL))
+#num_all_leagues_defense <- num_all_leagues_defense %>% 
+ # select(-`Def 3rd_Tackles`, -`Mid 3rd_Tackles`, -`Att 3rd_Tackles`, -Blocks_Blocks, -Sh_Blocks, -Pass_Blocks)
+
+
+```
+
+```{r}
+# to use in ML model
+#all_leagues_defense <- all_leagues_defense %>% 
+  #select(-`Def 3rd_Tackles`, -`Mid 3rd_Tackles`, -`Att 3rd_Tackles`, -Blocks_Blocks, -Sh_Blocks, -Pass_Blocks)
+write.csv(all_leagues_defense, "/Users/philtchoko/Desktop/DATS4001/all_leagues_defense.csv", row.names = TRUE)
+
+
+```
+
+```{r}
+#num_all_leagues_midfield <- subset(all_leagues_midfield, select = -c(Team, Position, Apps, Player,Season, Comp, Nation, PlayerURL))
+
+#num_all_leagues_midfield <- subset(num_all_leagues_midfield, select = -c(Cmp_Short, Att_Short, Cmp_percent_Short, Cmp_Medium, Att_Medium, Cmp_percent_Medium, Cmp_Long, Att_Long, Cmp_percent_Long, A_minus_xAG_Expected))
+
+# to use in ML model
+
+all_leagues_midfield <- subset(all_leagues_midfield, select = c(Team.x, Player, Value.x, Position.x, Age.x.x, Apps.x, Comp.x, TotDist_Total, PrgDist_Total, Cmp_Total, Cmp_percent_Total, Ast, xAG, KP, PrgP, Touches_Touches, Succ_percent_Take_Ons, Carries_Carries, TotDist_Carries, PrgDist_Carries, PrgC_Carries))
+
+all_leagues_midfield <- all_leagues_midfield|> rename_at('Value.x',~'Value')
+#all_leagues_midfield  <-  subset(all_leagues_midfield, select = -c(Cmp_Short, Att_Short, Cmp_percent_Short, Cmp_Medium, Att_Medium, Cmp_percent_Medium, Cmp_Long, Att_Long, Cmp_percent_Long, A_minus_xAG_Expected))
+write.csv(all_leagues_midfield, "/Users/philtchoko/Desktop/DATS4001/all_leagues_midfield.csv", row.names = TRUE)
+
+#num_all_leagues_stan[is.na(num_all_leagues_stan)] <- 0  
+#num_all_leagues_defense[is.na(num_all_leagues_defense)] <- 0  
+#num_all_leagues_pass[is.na(num_all_leagues_pass)] <- 0  
+
+```
+
+```{r}
+
+
+#cor_stats_market_vals <- cor(num_all_leagues_stan)
+
+#cor_def_market_vals <- cor(num_all_leagues_defense)
+
+#cor_pass_market_vals <- cor(num_all_leagues_pass)
+
+
+
+```
+
+```{r}
+library(corrplot)
+
+
+corrplot(cor_stats_market_vals)
+
+corrplot(cor_def_market_vals)
+
+corrplot(cor_pass_market_vals)
+
+```
+
+
+```{r}
+
+library(ggplot2)
+library(visreg)
+
+standard_model = lm(Value ~ Gls + Ast, data = num_all_leagues_stan)
+summary(standard_model)
+
+
+
+```
+
+```{r}
+passing_model = lm(Value ~ xAG + PPA + Ast + PrgP, data = num_all_leagues_pass)
+#summary(passing_model)
+visreg(passing_model, "xAG")
+visreg(passing_model, "PPA")
+visreg(passing_model, "Ast")
+visreg(passing_model, "PrgP")
+```
+
+```{r}
+library(visreg)
+
+defense_model = lm(Value ~ Tkl_percent_Challenges + Int + Clr, data = num_all_leagues_defense)
+#summary(defense_model)
+visreg(defense_model, "Tkl_percent_Challenges" )
+visreg(defense_model, "Int")
+visreg(defense_model, "Clr")
+```
+
+```{r}
+#running vifs
+
+library("car")
+library(lmtest)
+#vif_model <- vif(standard_model)
+coeftest(standard_model)
+coeftest(defense_model)
+coeftest()
+
+
+
+```

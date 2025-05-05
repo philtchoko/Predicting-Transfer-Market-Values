@@ -1,0 +1,245 @@
+"","Team.x","Player","Value","Position.x","MP","Starts_Playing_Time","Min_Playing_Time","Mins_Per_90_Playing_Time","Gls_Per_Minutes","Age.x.x","Apps.x","Season.x","Comp.x","Nation.x","PK","Gls","Ast","G+A","xG_Expected.x","xAG_Expected","Sh_Standard","SoT_percent_Standard"
+"1","Manchester City ","Erling Haaland",1.8e+08,"FW",31,29,2552,28.4,0.95,24,31,"2023-2024","Premier League","NOR",7,27,5,32,29.2,4.3,113,44.2
+"2","Manchester City ","Phil Foden",1.5e+08,"FW",35,33,2857,31.7,0.6,24,35,"2023-2024","Premier League","ENG",0,19,8,27,10.3,8.4,105,45.7
+"3","Arsenal ","Bukayo Saka",1.4e+08,"FW",35,35,2919,32.4,0.49,22,35,"2023-2024","Premier League","ENG",6,16,9,25,15.5,10.5,102,30.4
+"4","Manchester City ","Rodri",1.3e+08,"MF",34,34,2931,32.6,0.25,28,34,"2023-2024","Premier League","ESP",0,8,9,17,4.1,3.9,62,35.5
+"5","Arsenal ","Declan Rice",1.2e+08,"MF",38,37,3225,35.8,0.2,25,38,"2023-2024","Premier League","ENG",0,7,8,15,3.3,5.3,58,34.5
+"6","Arsenal ","Martin Ødegaard",1.1e+08,"MF",35,35,3091,34.3,0.23,25,35,"2023-2024","Premier League","NOR",2,8,10,18,7.4,9.6,75,28
+"7","Manchester City ","Julián Álvarez",9e+07,"FW",36,31,2647,29.4,0.37,24,36,"2023-2024","Premier League","ARG",2,11,8,19,13,6.4,96,38.5
+"8","Newcastle United ","Bruno Guimarães",8.5e+07,"MF",37,37,3263,36.3,0.19,26,37,"2023-2024","Premier League","BRA",0,7,8,15,4.8,6.4,48,33.3
+"9","Chelsea ","Cole Palmer",8e+07,"MF",1,0,11,0.1,0,22,34,"2023-2024","Premier League","ENG",0,0,0,0,0,0,0,NA
+"10","Chelsea ","Cole Palmer",8e+07,"MF",1,0,11,0.1,0,22,34,"2023-2024","Premier League","ENG",0,0,0,0,0,0,100,37
+"11","Chelsea ","Cole Palmer",8e+07,"MF",33,29,2607,29,0.76,22,34,"2023-2024","Premier League","ENG",9,22,11,33,18.2,11.1,0,NA
+"12","Chelsea ","Cole Palmer",8e+07,"MF",33,29,2607,29,0.76,22,34,"2023-2024","Premier League","ENG",9,22,11,33,18.2,11.1,100,37
+"13","Arsenal ","William Saliba",8e+07,"DF",38,38,3420,38,0.05,23,38,"2023-2024","Premier League","FRA",0,2,1,3,1.6,0.2,10,30
+"14","Manchester City ","Rúben Dias",8e+07,"DF",30,28,2559,28.4,0,27,30,"2023-2024","Premier League","POR",0,0,0,0,1.4,0.3,20,40
+"15","Manchester City ","Joško Gvardiol",7.5e+07,"DF",28,26,2328,25.9,0.15,22,28,"2023-2024","Premier League","CRO",0,4,1,5,3.1,1.4,32,40.6
+"16","Newcastle United ","Alexander Isak",7.5e+07,"FW",30,27,2255,25.1,0.84,24,30,"2023-2024","Premier League","SWE",5,21,2,23,20.3,3.7,72,50
+"17","Chelsea ","Enzo Fernández",7.5e+07,"MF",28,26,2209,24.5,0.12,23,28,"2023-2024","Premier League","ARG",1,3,2,5,6.2,3.4,45,28.9
+"18","Liverpool ","Dominik Szoboszlai",7.5e+07,"MF",33,25,2104,23.4,0.13,23,33,"2023-2024","Premier League","HUN",0,3,2,5,3.7,5.8,60,25
+"19","Liverpool ","Alexis Mac Allister",7.5e+07,"MF",33,31,2599,28.9,0.17,25,33,"2023-2024","Premier League","ARG",1,5,5,10,3.7,3.6,43,18.6
+"20","Liverpool ","Luis Díaz",7.5e+07,"FW",37,32,2629,29.2,0.27,27,37,"2023-2024","Premier League","COL",0,8,5,13,11.9,5.7,94,34
+"21","Chelsea ","Moisés Caicedo",7.5e+07,"MF",35,33,2866,31.8,0.03,22,35,"2023-2024","Premier League","ECU",0,1,3,4,0.4,2.6,13,30.8
+"22","Manchester City ","Bernardo Silva",7e+07,"MF",33,29,2578,28.6,0.21,30,33,"2023-2024","Premier League","POR",0,6,9,15,3.7,7.6,34,44.1
+"23","Arsenal ","Kai Havertz",7e+07,"MF",37,30,2634,29.3,0.44,25,37,"2023-2024","Premier League","GER",1,13,7,20,12.3,4.4,68,39.7
+"24","Arsenal ","Gabriel Martinelli",7e+07,"FW",35,24,2019,22.4,0.27,23,35,"2023-2024","Premier League","BRA",0,6,4,10,6.8,6.1,58,34.5
+"25","Arsenal ","Gabriel Magalhães",7e+07,"DF",36,34,3044,33.8,0.12,26,36,"2023-2024","Premier League","BRA",0,4,0,4,4.3,0.7,31,32.3
+"26","Aston Villa ","Douglas Luiz",7e+07,"MF",NA,35,2993,33.3,0.27,26,35,"2023-2024","Premier League","BRA",4,9,5,14,6.9,5.4,44,29.5
+"27","Tottenham Hotspur ","James Maddison",7e+07,"MF",28,26,2135,23.7,0.17,27,28,"2023-2024","Premier League","ENG",0,4,9,13,6.4,5.9,58,39.7
+"28","Liverpool ","Trent Alexander-Arnold",7e+07,"DF",28,25,2155,23.9,0.13,25,28,"2023-2024","Premier League","ENG",0,3,4,7,2.6,7.2,47,17
+"29","Liverpool ","Darwin Núñez",7e+07,"FW",36,22,2047,22.7,0.48,25,36,"2023-2024","Premier League","URU",0,11,8,19,16.3,6,107,43
+"30","Manchester United ","Bruno Fernandes",7e+07,"MF",NA,35,3118,34.6,0.29,29,35,"2023-2024","Premier League","POR",4,10,8,18,10,11.8,90,38.9
+"31","West Ham United ","Lucas Paquetá",6.5e+07,"MF",31,31,2622,29.1,0.14,27,31,"2023-2024","Premier League","BRA",2,4,6,10,5.4,5.4,40,20
+"32","Aston Villa ","Ollie Watkins",6.5e+07,"FW",NA,37,3217,35.7,0.53,28,37,"2023-2024","Premier League","ENG",0,19,13,32,16.8,7.3,107,43.9
+"33","Tottenham Hotspur ","Cristian Romero",6.5e+07,"DF",33,33,2790,31,0.16,26,33,"2023-2024","Premier League","ARG",0,5,0,5,3.5,0.4,24,37.5
+"34","Arsenal ","Gabriel Jesus",6.5e+07,"FW",27,17,1478,16.4,0.24,27,27,"2023-2024","Premier League","BRA",0,4,5,9,6.3,3.8,55,34.5
+"35","Manchester City ","Jeremy Doku",6.5e+07,"FW",29,18,1595,17.7,0.17,22,29,"2023-2024","Premier League","BEL",0,3,8,11,2.5,4.6,55,34.5
+"36","Manchester United ","Rasmus Højlund",6.5e+07,"FW",NA,25,2158,24,0.42,21,30,"2023-2024","Premier League","DEN",0,10,2,12,7.6,1.6,38,52.6
+"37","Chelsea ","Christopher Nkunku",6.5e+07,"MF",11,2,443,4.9,0.61,26,11,"2023-2024","Premier League","FRA",0,3,0,3,2.3,0.2,16,43.8
+"38","Manchester City ","Jack Grealish",6e+07,"FW",20,10,1009,11.2,0.27,28,20,"2023-2024","Premier League","ENG",0,3,1,4,2.1,2.5,22,22.7
+"39","Newcastle United ","Anthony Gordon",6e+07,"FW",35,34,2890,32.1,0.34,23,35,"2023-2024","Premier League","ENG",1,11,10,21,10.2,8,80,36.3
+"40","Manchester United ","Marcus Rashford",6e+07,"FW",NA,26,2271,25.2,0.28,26,33,"2023-2024","Premier League","ENG",2,7,2,9,7.4,2.3,60,31.7
+"41","Arsenal ","Ben White",5.5e+07,"DF",37,35,2988,33.2,0.12,26,37,"2023-2024","Premier League","ENG",0,4,4,8,1.2,3.8,13,46.2
+"42","Crystal Palace ","Eberechi Eze",5.5e+07,"MF",27,24,2055,22.8,0.48,26,27,"2023-2024","Premier League","ENG",1,11,4,15,9.1,5.2,82,40.2
+"43","Aston Villa ","Moussa Diaby",5.5e+07,"FW",NA,25,2174,24.2,0.25,25,38,"2023-2024","Premier League","FRA",0,6,8,14,7,6.6,54,40.7
+"44","Tottenham Hotspur ","Dejan Kulusevski",5.5e+07,"FW",36,31,2762,30.7,0.26,24,36,"2023-2024","Premier League","SWE",0,8,3,11,4.7,7.7,57,40.4
+"45","Liverpool ","Mohamed Salah",5.5e+07,"FW",32,28,2534,28.2,0.64,32,32,"2023-2024","Premier League","EGY",5,18,10,28,21.2,11.8,107,43.9
+"46","Liverpool ","Cody Gakpo",5.5e+07,"FW",35,17,1649,18.3,0.44,25,35,"2023-2024","Premier League","NED",0,8,5,13,9,2.9,66,36.4
+"47","Wolverhampton Wanderers ","Pedro Neto",5.5e+07,"FW",20,18,1516,16.8,0.12,24,20,"2023-2024","Premier League","POR",0,2,9,11,3.5,4.4,36,33.3
+"48","Fulham ","João Palhinha",5.5e+07,"MF",33,31,2699,30,0.13,29,33,"2023-2024","Premier League","POR",0,4,1,5,3.3,0.8,45,31.1
+"49","Manchester United ","Kobbie Mainoo",5.5e+07,"MF",NA,24,1924,21.4,0.14,19,24,"2023-2024","Premier League","ENG",0,3,1,4,0.9,0.7,11,45.5
+"50","Crystal Palace ","Michael Olise",5.5e+07,"MF",19,14,1275,14.2,0.71,22,19,"2023-2024","Premier League","FRA",1,10,6,16,5.5,5.8,56,35.7
+"51","Manchester City ","Kevin De Bruyne",5e+07,"MF",18,15,1221,13.6,0.29,33,18,"2023-2024","Premier League","BEL",0,4,10,14,2.4,11.5,44,38.6
+"52","West Ham United ","Jarrod Bowen",5e+07,"FW",34,34,3019,33.5,0.48,27,34,"2023-2024","Premier League","ENG",0,16,6,22,11.6,5.5,84,44
+"53","PSG","Kylian Mbappé",1.7e+08,"FW",29,24,2158,24,1.13,25,NA,"2023-2024","Ligue 1","FRA",6,27,7,34,21,5.7,112,44.6
+"54","PSG","Achraf Hakimi",6.5e+07,"DF",25,20,1932,21.5,0.19,25,NA,"2023-2024","Ligue 1","MAR",0,4,5,9,4.2,5.2,42,28.6
+"55","PSG","Warren Zaïre-Emery",6e+07,"MF",26,21,1962,21.8,0.09,18,NA,"2023-2024","Ligue 1","FRA",0,2,3,5,1.4,3.2,14,28.6
+"56","Lille","Jonathan David",5e+07,"FW",34,30,2629,29.2,0.65,24,NA,"2023-2024","Ligue 1","CAN",2,19,4,23,17.5,3.3,76,56.6
+"57","PSG","Lucas Hernández",4.5e+07,"DF",27,23,1909,21.2,0.05,28,NA,"2023-2024","Ligue 1","FRA",0,1,1,2,0.5,1.6,6,33.3
+"58","PSG","Vitinha",4.5e+07,"MF",28,23,2126,23.6,0.3,24,NA,"2023-2024","Ligue 1","POR",0,7,4,11,3.1,3.1,45,42.2
+"59","PSG","Vitinha",4.5e+07,"MF",28,23,2126,23.6,0.3,24,NA,"2023-2024","Ligue 1","POR",0,7,4,11,3.1,3.1,37,24.3
+"60","PSG","Vitinha",4.5e+07,"MF",18,10,923,10.3,0.29,24,NA,"2023-2024","Ligue 1","POR",0,3,2,5,5.1,2.9,45,42.2
+"61","PSG","Vitinha",4.5e+07,"MF",18,10,923,10.3,0.29,24,NA,"2023-2024","Ligue 1","POR",0,3,2,5,5.1,2.9,37,24.3
+"62","Lille","Leny Yoro",4e+07,"DF",32,30,2673,29.7,0.07,18,NA,"2023-2024","Ligue 1","FRA",0,2,0,2,1.5,0.1,14,57.1
+"63","PSG","Gianluigi Donnarumma",4e+07,"GK",25,25,2169,24.1,0,25,NA,"2023-2024","Ligue 1","ITA",0,0,0,0,0,0,0,NA
+"64","PSG","Milan Škriniar",4e+07,"DF",24,17,1629,18.1,0,29,NA,"2023-2024","Ligue 1","SVK",0,0,0,0,0.2,0.1,3,33.3
+"65","Nice","Jean-Clair Todibo",3.5e+07,"DF",30,30,2651,29.5,0,24,NA,"2023-2024","Ligue 1","FRA",0,0,2,2,0.6,1.6,9,11.1
+"66","Nice","Khéphren Thuram",3.5e+07,"MF",27,25,2108,23.4,0.04,23,NA,"2023-2024","Ligue 1","FRA",0,1,1,2,3.4,3.7,39,28.2
+"67","Nice","Terem Moffi",2.5e+07,"FW",30,23,1949,21.7,0.51,24,NA,"2023-2024","Ligue 1","NGA",3,11,2,13,10.7,3.2,46,43.5
+"68","Lille","Lucas Chevalier",2.2e+07,"GK",33,33,2969,33,0,22,NA,"2023-2024","Ligue 1","FRA",0,0,0,0,0,0.1,0,NA
+"69","Lille","Angel Gomes",2.2e+07,"MF",31,29,2571,28.6,0,23,NA,"2023-2024","Ligue 1","ENG",0,0,8,8,2,6.2,34,20.6
+"70","PSG","Lee Kang-in",2.2e+07,"MF",23,18,1464,16.3,0.18,23,NA,"2023-2024","Ligue 1","KOR",0,3,4,7,1.5,2.3,23,39.1
+"71","Lille","Carlos Baleba",2e+07,"MF",2,1,61,0.7,0,20,NA,"2023-2024","Ligue 1","CMR",0,0,0,0,0,0,2,50
+"72","Olympique Marseille","Renan Lodi",2e+07,"DF",14,14,1235,13.7,0,26,NA,"2023-2024","Ligue 1","BRA",0,0,0,0,0.3,1.3,6,33.3
+"73","Nice","Youssouf Ndayishimiye",1.8e+07,"MF",23,20,1712,19,0,25,NA,"2023-2024","Ligue 1","BDI",0,0,0,0,1.2,0.5,14,21.4
+"74","Olympique Marseille","Iliman Ndiaye",1.8e+07,"MF",30,19,1618,18,0.17,24,NA,"2023-2024","Ligue 1","SEN",0,3,3,6,4.5,2.6,35,25.7
+"75","Nice","Gaëtan Laborde",1.5e+07,"FW",34,22,1906,21.2,0.24,30,NA,"2023-2024","Ligue 1","FRA",1,5,2,7,7.7,1.8,62,35.5
+"76","Nice","Jeremie Boga",1.5e+07,"MF",28,24,1998,22.2,0.27,27,NA,"2023-2024","Ligue 1","CIV",0,6,6,12,4.3,4.2,39,48.7
+"77","Nice","Sofiane Diop",1.5e+07,"FW",10,6,499,5.5,0,23,NA,"2023-2024","Ligue 1","FRA",0,0,0,0,1.2,0.8,14,42.9
+"78","Lille","Bafodé Diakité",1.5e+07,"DF",21,19,1696,18.8,0.27,24,NA,"2023-2024","Ligue 1","FRA",0,5,2,7,2,1.4,16,43.8
+"79","Lille","Edon Zhegrova",1.5e+07,"FW",33,25,2288,25.4,0.24,25,NA,"2023-2024","Ligue 1","KVX",0,6,6,12,6.2,6.2,82,35.4
+"80","Olympique Marseille","Jonathan Clauss",1.5e+07,"DF",27,25,2068,23,0.13,31,NA,"2023-2024","Ligue 1","FRA",0,3,4,7,1.3,4.6,28,28.6
+"81","Olympique Marseille","Chancel Mbemba",1.5e+07,"DF",25,25,2207,24.5,0.08,29,NA,"2023-2024","Ligue 1","COD",0,2,2,4,1.8,1,19,10.5
+"82","Olympique Marseille","Geoffrey Kondogbia",1.5e+07,"MF",26,15,1463,16.3,0,31,NA,"2023-2024","Ligue 1","CTA",0,0,0,0,0.4,0.5,8,12.5
+"83","Olympique Marseille","Valentin Rongier",1.5e+07,"MF",10,10,851,9.5,0,29,NA,"2023-2024","Ligue 1","FRA",0,0,0,0,0.6,0.8,10,30
+"84","Olympique Marseille","Jordan Veretout",1.5e+07,"MF",29,24,2183,24.3,0.04,31,NA,"2023-2024","Ligue 1","FRA",0,1,2,3,2.9,5,36,22.2
+"85","Olympique Marseille","Amine Harit",1.5e+07,"MF",28,21,1821,20.2,0.05,26,NA,"2023-2024","Ligue 1","MAR",0,1,2,3,3.7,3.7,33,24.2
+"86","Rennes","Azor Matusiwa",1.3e+07,"MF",16,16,1385,15.4,0.06,26,NA,"2023-2024","Ligue 1","NED",0,1,0,1,0.7,0.7,12,16.7
+"87","Rennes","Azor Matusiwa",1.3e+07,"MF",16,16,1385,15.4,0.06,26,NA,"2023-2024","Ligue 1","NED",0,1,0,1,0.7,0.7,6,16.7
+"88","Rennes","Azor Matusiwa",1.3e+07,"MF",12,9,794,8.8,0,26,NA,"2023-2024","Ligue 1","NED",0,0,1,1,0.3,0.4,12,16.7
+"89","Rennes","Azor Matusiwa",1.3e+07,"MF",12,9,794,8.8,0,26,NA,"2023-2024","Ligue 1","NED",0,0,1,1,0.3,0.4,6,16.7
+"90","Nice","Melvin Bard",1.2e+07,"DF",32,31,2654,29.5,0.03,23,NA,"2023-2024","Ligue 1","FRA",0,1,2,3,0.5,2.8,15,33.3
+"91","Olympique Marseille","Azzedine Ounahi",1.2e+07,"MF",21,15,1209,13.4,0.15,24,NA,"2023-2024","Ligue 1","MAR",0,2,0,2,1,1.4,16,25
+"92","Reims","Marshall Munetsi",1.2e+07,"MF",27,25,2173,24.1,0.17,27,NA,"2023-2024","Ligue 1","ZIM",0,4,3,7,6.2,1,44,36.4
+"93","Lille","Yusuf Yazıcı",1e+07,"MF",27,16,1312,14.6,0.34,27,NA,"2023-2024","Ligue 1","TUR",0,5,2,7,5.4,1.9,40,35
+"94","Olympique Marseille","Pau López",1e+07,"GK",33,33,2939,32.7,0,29,NA,"2023-2024","Ligue 1","ESP",0,0,0,0,0,0.5,0,NA
+"95","Reims","Yehvann Diouf",1e+07,"GK",34,34,3060,34,0,24,NA,"2023-2024","Ligue 1","FRA",0,0,0,0,0,0,0,NA
+"96","Reims","Junya Ito",1e+07,"FW",31,31,2714,30.2,0.1,31,NA,"2023-2024","Ligue 1","JPN",0,3,7,10,4.5,11.5,46,32.6
+"97","Reims","Keito Nakamura",1e+07,"FW",25,17,1381,15.3,0.26,23,NA,"2023-2024","Ligue 1","JPN",0,4,1,5,3.2,1.3,41,29.3
+"98","Nice","Hicham Boudaoui",9e+06,"MF",29,17,1613,17.9,0.11,24,NA,"2023-2024","Ligue 1","ALG",0,2,0,2,3.3,1.8,29,20.7
+"99","Olympique Marseille","Samuel Gigot",9e+06,"DF",21,20,1726,19.2,0.16,30,NA,"2023-2024","Ligue 1","FRA",0,3,0,3,2.4,0.9,19,47.4
+"100","Reims","Joseph Okumu",9e+06,"DF",21,19,1743,19.4,0.05,26,NA,"2023-2024","Ligue 1","KEN",0,1,0,1,1.5,0,11,27.3
+"101","PSG","Danilo Pereira",9e+06,"MF",26,22,1995,22.2,0,32,NA,"2023-2024","Ligue 1","POR",0,0,0,0,1.4,0,10,10
+"102","Nice","Jordan Lotomba",8e+06,"DF",28,21,1804,20,0.05,25,NA,"2023-2024","Ligue 1","SUI",0,1,0,1,0.9,1.1,11,18.2
+"103","Nice","Evann Guessand",8e+06,"FW",34,14,1553,17.3,0.35,22,NA,"2023-2024","Ligue 1","CIV",2,6,0,6,8.4,1.4,46,43.5
+"104","Lille","Tiago Santos",8e+06,"DF",29,26,2365,26.3,0.04,21,NA,"2023-2024","Ligue 1","POR",0,1,2,3,1.4,2.3,33,21.2
+"105","Bayern München ","Jamal Musiala",1.4e+08,"MF",24,20,1755,19.5,0.51,21,NA,"2023-2024","Bundesliga","GER",0,10,5,15,7.9,6,58,36.2
+"106","Bayer Leverkusen ","Florian Wirtz",1.4e+08,"MF",32,26,2372,26.4,0.42,21,NA,"2023-2024","Bundesliga","GER",1,11,11,22,8.9,7.5,70,47.1
+"107","Bayern München ","Harry Kane",9e+07,"FW",32,32,2839,31.5,1.14,31,NA,"2023-2024","Bundesliga","ENG",5,36,8,44,30.6,6.4,141,43.3
+"108","RB Leipzig ","Xavi Simons",8e+07,"MF",32,32,2653,29.5,0.27,21,NA,"2023-2024","Bundesliga","NED",1,8,11,19,8.3,9.8,79,39.2
+"109","RB Leipzig ","Dani Olmo",6e+07,"MF",21,17,1449,16.1,0.25,26,NA,"2023-2024","Bundesliga","ESP",0,4,5,9,3.3,5.4,45,28.9
+"110","Eintracht Frankfurt ","Omar Marmoush",6e+07,"FW",29,27,2301,25.6,0.47,25,NA,"2023-2024","Bundesliga","EGY",2,12,6,18,11.6,4.4,77,40.3
+"111","Bayern München ","Ryan Gravenberch",5.5e+07,"MF",1,0,10,0.1,0,22,NA,"2023-2024","Bundesliga","NED",0,0,0,0,0,0.2,0,NA
+"112","Bayern München ","Dayot Upamecano",5e+07,"DF",25,19,1762,19.6,0.05,26,NA,"2023-2024","Bundesliga","FRA",0,1,0,1,1.7,0.5,11,36.4
+"113","Bayern München ","Alphonso Davies",5e+07,"DF",29,24,2065,22.9,0.09,24,NA,"2023-2024","Bundesliga","CAN",0,2,5,7,1,2.9,13,30.8
+"114","Bayern München ","Joshua Kimmich",5e+07,"DF",28,27,2176,24.2,0.04,29,NA,"2023-2024","Bundesliga","GER",0,1,6,7,1.1,7.1,25,28
+"115","Bayer Leverkusen ","Jeremie Frimpong",5e+07,"MF",31,27,2251,25,0.36,23,NA,"2023-2024","Bundesliga","NED",0,9,7,16,8.2,5.9,55,38.2
+"116","RB Leipzig ","Castello Lukeba",5e+07,"DF",32,24,2191,24.3,0.04,21,NA,"2023-2024","Bundesliga","FRA",0,1,0,1,0.8,0.1,7,42.9
+"117","RB Leipzig ","Benjamin Šeško",5e+07,"FW",31,17,1526,17,0.83,21,NA,"2023-2024","Bundesliga","SVN",0,14,2,16,7.7,1.1,47,53.2
+"118","Bayern München ","Leroy Sané",4.5e+07,"FW",27,25,2137,23.7,0.34,28,NA,"2023-2024","Bundesliga","GER",0,8,11,19,10.9,10.8,73,38.4
+"119","Bayern München ","Matthijs de Ligt",4.5e+07,"DF",22,16,1390,15.4,0.13,25,NA,"2023-2024","Bundesliga","NED",0,2,0,2,1.7,0.1,14,42.9
+"120","Bayer Leverkusen ","Victor Boniface",4.5e+07,"FW",23,18,1546,17.2,0.82,23,NA,"2023-2024","Bundesliga","NGA",4,14,8,22,15.4,3.7,76,39.5
+"121","Stuttgart ","Enzo Millot",4.2e+07,"MF",NA,27,2241,24.9,0.2,22,NA,"2023-2024","Bundesliga","FRA",1,5,4,9,5.3,3.9,38,44.7
+"122","Bayern München ","Benjamin Pavard",4e+07,"DF",0,0,NA,NA,NA,28,NA,"2023-2024","Bundesliga","FRA",NA,NA,NA,NA,NA,NA,NA,NA
+"123","Bayer Leverkusen ","Álex Grimaldo",4e+07,"DF",33,31,2784,30.9,0.32,29,NA,"2023-2024","Bundesliga","ESP",0,10,13,23,5.7,9.1,71,32.4
+"124","Bayer Leverkusen ","Edmond Tapsoba",4e+07,"DF",28,23,2087,23.2,0,25,NA,"2023-2024","Bundesliga","BFA",0,0,1,1,1,1,12,8.3
+"125","Bayer Leverkusen ","Exequiel Palacios",4e+07,"MF",24,21,1831,20.3,0.2,26,NA,"2023-2024","Bundesliga","ARG",2,4,4,8,3.3,3.8,19,21.1
+"126","Borussia Dortmund ","Gregor Kobel",4e+07,"GK",27,27,2365,26.3,0,26,NA,"2023-2024","Bundesliga","SUI",0,0,0,0,0,0,0,NA
+"127","Borussia Dortmund ","Nico Schlotterbeck",4e+07,"DF",33,32,2859,31.8,0.06,24,NA,"2023-2024","Bundesliga","GER",0,2,1,3,3,1.9,27,22.2
+"128","Eintracht Frankfurt ","Willian Pacho",4e+07,"DF",33,33,2970,33,0,23,NA,"2023-2024","Bundesliga","ECU",0,0,3,3,1.2,1.1,10,20
+"129","Bayer Leverkusen ","Piero Hincapié",4e+07,"DF",26,16,1484,16.5,0.06,22,NA,"2023-2024","Bundesliga","ECU",0,1,2,3,1.9,0.5,18,33.3
+"130","Eintracht Frankfurt ","Hugo Ekitike",4e+07,"FW",14,7,716,8,0.5,22,NA,"2023-2024","Bundesliga","FRA",0,4,2,6,2.4,1.7,30,30
+"131","Bayern München ","Kingsley Coman",3.5e+07,"FW",17,15,1113,12.4,0.24,28,NA,"2023-2024","Bundesliga","FRA",0,3,3,6,2.8,3.8,34,23.5
+"132","Borussia Dortmund ","Julian Brandt",3.5e+07,"MF",32,26,2223,24.7,0.28,28,NA,"2023-2024","Bundesliga","GER",0,7,11,18,4.4,9.5,33,48.5
+"133","Borussia Dortmund ","Karim Adeyemi",3.5e+07,"FW",21,10,913,10.1,0.3,22,NA,"2023-2024","Bundesliga","GER",0,3,1,4,3.5,2,23,43.5
+"134","Eintracht Frankfurt ","Hugo Larsson",3.5e+07,"MF",29,21,1886,21,0.1,20,NA,"2023-2024","Bundesliga","SWE",0,2,1,3,1.3,1.4,10,40
+"135","Bayern München ","Serge Gnabry",3.5e+07,"FW",10,5,432,4.8,0.62,29,NA,"2023-2024","Bundesliga","GER",0,3,1,4,2.4,1.2,17,35.3
+"136","Bayern München ","Noussair Mazraoui",3.2e+07,"DF",19,15,1197,13.3,0,26,NA,"2023-2024","Bundesliga","MAR",0,0,3,3,0.9,1.8,12,25
+"137","Stuttgart ","Angelo Stiller",3.2e+07,"MF",NA,30,2694,29.9,0.03,23,NA,"2023-2024","Bundesliga","GER",0,1,5,6,1.6,5.1,16,18.8
+"138","Stuttgart ","Angelo Stiller",3.2e+07,"MF",NA,30,2694,29.9,0.03,23,NA,"2023-2024","Bundesliga","GER",0,1,5,6,1.6,5.1,2,50
+"139","Stuttgart ","Angelo Stiller",3.2e+07,"MF",1,1,84,0.9,0,23,NA,"2023-2024","Bundesliga","GER",0,0,0,0,0.1,0,16,18.8
+"140","Stuttgart ","Angelo Stiller",3.2e+07,"MF",1,1,84,0.9,0,23,NA,"2023-2024","Bundesliga","GER",0,0,0,0,0.1,0,2,50
+"141","Borussia Dortmund ","Ian Maatsen",3.2e+07,"DF",16,15,1264,14,0.14,22,NA,"2023-2024","Bundesliga","NED",0,2,2,4,0.9,1.4,11,36.4
+"142","Bayern München ","Mathys Tel",3e+07,"FW",30,6,1050,11.7,0.6,19,NA,"2023-2024","Bundesliga","FRA",0,7,5,12,3.7,2.3,43,41.9
+"143","Bayer Leverkusen ","Jonathan Tah",3e+07,"DF",31,30,2631,29.2,0.14,28,NA,"2023-2024","Bundesliga","GER",0,4,1,5,2.1,0.3,26,38.5
+"144","Hoffenheim ","Maximilian Beier",3e+07,"FW",33,29,2420,26.9,0.6,22,NA,"2023-2024","Bundesliga","GER",0,16,1,17,11.4,2.4,82,47.6
+"145","Stuttgart ","Hiroki Ito",3e+07,"DF",NA,25,2228,24.8,0,25,NA,"2023-2024","Bundesliga","JPN",0,0,2,2,0.9,2,18,22.2
+"146","Eintracht Frankfurt ","Randal Kolo Muani",3e+07,"FW",2,2,153,1.7,0.59,25,NA,"2023-2024","Bundesliga","FRA",0,1,0,1,1.3,0,5,20
+"147","Borussia Dortmund ","Jadon Sancho",3e+07,"FW",14,11,947,10.5,0.19,24,NA,"2023-2024","Bundesliga","ENG",0,2,2,4,0.7,3,9,44.4
+"148","RB Leipzig ","Mohamed Simakan",2.8e+07,"DF",32,23,2138,23.8,0.08,24,NA,"2023-2024","Bundesliga","FRA",0,2,3,5,3.9,3.3,30,36.7
+"149","RB Leipzig ","Xaver Schlager",2.8e+07,"MF",29,29,2477,27.5,0,27,NA,"2023-2024","Bundesliga","AUT",0,0,5,5,1.1,2.6,21,14.3
+"150","Augsburg ","Ermedin Demirović",2.8e+07,"FW",33,33,2873,31.9,0.47,26,NA,"2023-2024","Bundesliga","BIH",3,15,9,24,13.5,3.9,77,41.6
+"151","Borussia Dortmund ","Donyell Malen",2.8e+07,"FW",27,21,1781,19.8,0.66,25,NA,"2023-2024","Bundesliga","NED",0,13,1,14,9.5,3,72,50
+"152","Borussia Dortmund ","Felix Nmecha",2.8e+07,"MF",20,10,1021,11.3,0.09,24,NA,"2023-2024","Bundesliga","GER",0,1,2,3,1.7,0.9,23,13
+"153","Real Madrid ","Jude Bellingham",1.8e+08,"MF",28,27,2315,25.7,0.74,21,28,"2023-2024","La Liga","ENG",1,19,6,25,11.1,5.3,62,54.8
+"154","FC Barcelona ","Lamine Yamal",1.8e+08,"FW",37,22,2201,24.5,0.2,17,37,"2023-2024","La Liga","ESP",0,5,5,10,5.2,6.2,58,36.2
+"155","Real Madrid ","Federico Valverde",1.3e+08,"MF",37,33,2904,32.3,0.06,26,37,"2023-2024","La Liga","URU",0,2,7,9,3.5,5.8,56,32.1
+"156","Real Madrid ","Rodrygo",1e+08,"FW",34,28,2380,26.4,0.38,23,34,"2023-2024","La Liga","BRA",0,10,5,15,11.7,4,86,40.7
+"157","FC Barcelona ","Pedri",1e+08,"MF",24,16,1476,16.4,0.24,21,24,"2023-2024","La Liga","ESP",0,4,2,6,3.1,4.2,15,46.7
+"158","Real Madrid ","Aurélien Tchouaméni",8e+07,"MF",27,22,1987,22.1,0.14,24,27,"2023-2024","La Liga","FRA",0,3,1,4,1.3,0.9,27,25.9
+"159","Real Madrid ","Eduardo Camavinga",8e+07,"MF",31,21,1817,20.2,0,22,31,"2023-2024","La Liga","FRA",0,0,2,2,0.9,1.4,17,41.2
+"160","FC Barcelona ","Raphinha",8e+07,"FW",28,17,1368,15.2,0.39,28,28,"2023-2024","La Liga","BRA",1,6,9,15,7.4,5.7,58,34.5
+"161","FC Barcelona ","Gavi",8e+07,"MF",12,10,944,10.5,0.1,20,12,"2023-2024","La Liga","ESP",0,1,1,2,0.9,1.1,9,44.4
+"162","Athletic Club Bilbao ","Nico Williams",7e+07,"FW",31,29,2263,25.1,0.2,22,31,"2023-2024","La Liga","ESP",0,5,11,16,6,5.7,56,33.9
+"163","FC Barcelona ","Pau Cubarsí",7e+07,"DF",19,18,1558,17.3,0,17,19,"2023-2024","La Liga","ESP",0,0,0,0,0.1,0.4,3,0
+"164","Real Sociedad ","Martín Zubimendi",6e+07,"MF",NA,29,2654,29.5,0.14,25,31,"2023-2024","La Liga","ESP",0,4,1,5,2.7,1.5,22,50
+"165","FC Barcelona ","Jules Koundé",6e+07,"DF",35,32,2899,32.2,0.03,26,35,"2023-2024","La Liga","FRA",0,1,2,3,2,2.2,24,25
+"166","Girona FC ","Sávio",5.5e+07,"FW",37,35,2976,33.1,0.27,20,37,"2023-2024","La Liga","BRA",0,9,10,19,6.1,7.9,45,44.4
+"167","FC Barcelona ","Ronald Araújo",5.5e+07,"DF",25,21,1997,22.2,0.05,25,25,"2023-2024","La Liga","URU",0,1,2,3,2.1,1.4,23,39.1
+"168","Athletic Club Bilbao ","Oihan Sancet",5e+07,"MF",30,25,1975,21.9,0.18,24,30,"2023-2024","La Liga","ESP",0,4,5,9,6.3,4.7,41,26.8
+"169","FC Barcelona ","Alejandro Balde",5e+07,"DF",18,15,1378,15.3,0,21,18,"2023-2024","La Liga","ESP",0,0,1,1,0.1,1.2,5,20
+"170","Atlético Madrid ","Pablo Barrios",5e+07,"MF",24,17,1555,17.3,0,21,24,"2023-2024","La Liga","ESP",0,0,1,1,0.9,1.9,17,41.2
+"171","Deportivo Alavés ","Samu Omorodion",5e+07,"FW",34,21,1918,21.3,0.38,20,35,"2023-2024","La Liga","ESP",0,8,1,9,10.8,1.3,64,37.5
+"172","Deportivo Alavés ","Samu Omorodion",5e+07,"FW",34,21,1918,21.3,0.38,20,35,"2023-2024","La Liga","ESP",0,8,1,9,10.8,1.3,3,66.7
+"173","Deportivo Alavés ","Samu Omorodion",5e+07,"FW",1,1,80,0.9,1.13,20,35,"2023-2024","La Liga","ESP",0,1,0,1,0.7,0,64,37.5
+"174","Deportivo Alavés ","Samu Omorodion",5e+07,"FW",1,1,80,0.9,1.13,20,35,"2023-2024","La Liga","ESP",0,1,0,1,0.7,0,3,66.7
+"175","FC Barcelona ","Frenkie de Jong",4.5e+07,"MF",20,20,1634,18.2,0.11,27,20,"2023-2024","La Liga","NED",0,2,0,2,0.7,2.2,7,57.1
+"176","Real Sociedad ","Mikel Merino",4.5e+07,"MF",NA,27,2482,27.6,0.18,28,32,"2023-2024","La Liga","ESP",0,5,3,8,3.3,1.9,30,36.7
+"177","Valencia CF ","Giorgi Mamardashvili",4e+07,"GK",37,37,3284,36.5,0,24,37,"2023-2024","La Liga","GEO",0,0,0,0,0,0.4,0,NA
+"178","Real Sociedad ","Robin Le Normand",4e+07,"DF",NA,28,2469,27.4,0.07,28,29,"2023-2024","La Liga","ESP",0,2,0,2,1,0.1,8,62.5
+"179","Real Sociedad ","Takefusa Kubo",4e+07,"FW",NA,24,2150,23.9,0.29,23,30,"2023-2024","La Liga","JPN",0,7,4,11,3.5,6.4,46,45.7
+"180","Real Madrid ","Éder Militão",4e+07,"DF",10,6,496,5.5,0,26,10,"2023-2024","La Liga","BRA",0,0,0,0,0.1,0,2,100
+"181","Real Sociedad ","Brais Méndez",3.5e+07,"MF",NA,27,2413,26.8,0.19,27,32,"2023-2024","La Liga","ESP",0,5,6,11,4.2,4.2,66,22.7
+"182","Real Sociedad ","Mikel Oyarzabal",3.5e+07,"FW",NA,23,2156,24,0.38,27,33,"2023-2024","La Liga","ESP",2,9,3,12,9.1,1.7,38,42.1
+"183","Getafe CF ","Mason Greenwood",3.5e+07,"MF",33,30,2662,29.6,0.27,23,33,"2023-2024","La Liga","ENG",2,8,6,14,8.8,4.6,99,31.3
+"184","Girona FC ","Artem Dovbyk",3e+07,"FW",36,32,2587,28.7,0.83,27,36,"2023-2024","La Liga","UKR",7,24,8,32,24.2,6.2,77,46.8
+"185","FC Barcelona ","João Félix",3e+07,"FW",30,18,1540,17.1,0.41,25,30,"2023-2024","La Liga","POR",0,7,3,10,8.7,3.1,61,41
+"186","FC Barcelona ","João Félix",3e+07,"FW",0,0,NA,NA,NA,25,30,"2023-2024","La Liga","POR",NA,NA,NA,NA,NA,NA,61,41
+"187","Valencia CF ","Cristhian Mosquera",3e+07,"DF",36,33,3075,34.2,0,20,36,"2023-2024","La Liga","ESP",0,0,0,0,0.7,0,9,22.2
+"188","Athletic Club Bilbao ","Unai Simón",2.8e+07,"GK",36,36,3182,35.4,0,27,36,"2023-2024","La Liga","ESP",0,0,0,0,0,0,0,NA
+"189","FC Barcelona ","Ferrán Torres",2.8e+07,"FW",29,12,1211,13.5,0.52,24,29,"2023-2024","La Liga","ESP",0,7,2,9,5.5,2.7,38,39.5
+"190","Atlético Madrid ","Marcos Llorente",2.8e+07,"MF",37,29,2565,28.5,0.21,29,37,"2023-2024","La Liga","ESP",0,6,4,10,4.1,5.6,30,63.3
+"191","Celta de Vigo ","Jørgen Strand Larsen",2.7e+07,"FW",37,36,2863,31.8,0.41,24,37,"2023-2024","La Liga","NOR",0,13,3,16,14.5,2.5,82,42.7
+"192","Real Sociedad ","Álex Remiro",2.5e+07,"GK",NA,37,3275,36.4,0,29,37,"2023-2024","La Liga","ESP",0,0,0,0,0,0,0,NA
+"193","Girona FC ","Miguel Gutiérrez",2.5e+07,"DF",35,35,3032,33.7,0.06,23,35,"2023-2024","La Liga","ESP",0,2,7,9,2.8,7.5,34,14.7
+"194","Girona FC ","Yan Couto",2.5e+07,"DF",34,24,2245,24.9,0.04,22,34,"2023-2024","La Liga","BRA",0,1,8,9,1.5,4.2,29,37.9
+"195","Villarreal ","Alexander Sørloth",2.5e+07,"FW",34,30,2489,27.7,0.83,28,34,"2023-2024","La Liga","NOR",0,23,6,29,12.3,4.4,78,46.2
+"196","Atlético Madrid ","Jan Oblak",2.5e+07,"GK",38,38,3420,38,0,31,38,"2023-2024","La Liga","SVN",0,0,0,0,0,0,0,NA
+"197","Atlético Madrid ","Rodrigo De Paul",2.5e+07,"MF",34,25,2075,23.1,0.13,30,34,"2023-2024","La Liga","ARG",0,3,5,8,1.8,5,30,40
+"198","Inter Milan ","Lautaro Martínez",1e+08,"FW",33,31,2656,29.5,0.81,27,NA,"2023-2024","Serie A","ARG",2,24,3,27,17.6,3.6,105,41.9
+"199","Napoli ","Khvicha Kvaratskhelia",8.5e+07,"MF",34,32,2737,30.4,0.36,23,NA,"2023-2024","Serie A","GEO",0,11,6,17,11.1,6.8,128,35.2
+"200","Inter Milan ","Nicolò Barella",8e+07,"MF",37,34,2846,31.6,0.06,27,NA,"2023-2024","Serie A","ITA",0,2,3,5,5.1,3.4,40,30
+"201","Napoli ","Victor Osimhen",7.5e+07,"FW",25,22,1982,22,0.68,25,NA,"2023-2024","Serie A","NGA",3,15,3,18,15.4,3.1,85,42.4
+"202","Inter Milan ","Alessandro Bastoni",7.5e+07,"DF",28,28,2268,25.2,0.04,25,NA,"2023-2024","Serie A","ITA",0,1,3,4,1.2,3.4,15,40
+"203","Inter Milan ","Marcus Thuram",7.5e+07,"FW",35,34,2687,29.9,0.44,27,NA,"2023-2024","Serie A","FRA",0,13,7,20,14.3,3.7,77,37.7
+"204","AC Milan ","Rafael Leão",7.5e+07,"FW",NA,29,2512,27.9,0.32,25,NA,"2023-2024","Serie A","POR",0,9,9,18,10,9.1,70,34.3
+"205","Inter Milan ","Federico Dimarco",6e+07,"DF",30,29,2077,23.1,0.22,27,NA,"2023-2024","Serie A","ITA",0,5,6,11,2.9,8.5,51,37.3
+"206","Juventus ","Gleison Bremer",6e+07,"DF",36,36,3233,35.9,0.08,27,NA,"2023-2024","Serie A","BRA",0,3,0,3,1.4,0.4,18,22.2
+"207","Juventus ","Dušan Vlahović",6e+07,"FW",33,27,2307,25.6,0.62,24,NA,"2023-2024","Serie A","SRB",2,16,4,20,16.6,2.3,106,33
+"208","Atalanta ","Ademola Lookman",5.5e+07,"FW",NA,22,1894,21,0.52,27,NA,"2023-2024","Serie A","NGA",0,11,7,18,9.1,5.2,67,35.8
+"209","Atalanta ","Teun Koopmeiners",5e+07,"MF",NA,29,2627,29.2,0.41,26,NA,"2023-2024","Serie A","NED",2,12,5,17,6.5,5.9,52,30.8
+"210","Atalanta ","Éderson",5e+07,"MF",NA,32,2869,31.9,0.19,25,NA,"2023-2024","Serie A","BRA",0,6,1,7,3.5,1.4,38,28.9
+"211","AC Milan ","Theo Hernández",5e+07,"DF",NA,31,2791,31,0.16,27,NA,"2023-2024","Serie A","FRA",1,5,4,9,4.9,4.3,55,29.1
+"212","AC Milan ","Christian Pulisic",5e+07,"MF",NA,32,2602,28.9,0.42,26,NA,"2023-2024","Serie A","USA",0,12,8,20,8,4.8,65,47.7
+"213","Atalanta ","Giorgio Scalvini",4.5e+07,"DF",NA,31,2544,28.3,0.04,20,NA,"2023-2024","Serie A","ITA",0,1,3,4,1.4,1.1,19,31.6
+"214","Juventus ","Kenan Yıldız",4.5e+07,"MF",27,9,952,10.6,0.19,19,NA,"2023-2024","Serie A","TUR",0,2,0,2,1.6,1.1,19,36.8
+"215","Torino ","Alessandro Buongiorno",4.5e+07,"DF",NA,29,2527,28.1,0.11,25,NA,"2023-2024","Serie A","ITA",0,3,0,3,1.6,0.1,13,46.2
+"216","Bologna ","Riccardo Calafiori",4.5e+07,"DF",NA,26,2349,26.1,0.08,22,NA,"2023-2024","Serie A","ITA",0,2,5,7,1.4,1.2,17,35.3
+"217","Bologna ","Joshua Zirkzee",4.2e+07,"FW",NA,32,2759,30.7,0.36,23,NA,"2023-2024","Serie A","NED",2,11,4,15,9,5.2,84,34.5
+"218","Inter Milan ","Hakan Çalhanoğlu",4e+07,"MF",32,32,2556,28.4,0.46,30,NA,"2023-2024","Serie A","TUR",10,13,3,16,10.1,4.7,52,25
+"219","Juventus ","Andrea Cambiaso",4e+07,"DF",34,28,2372,26.4,0.08,24,NA,"2023-2024","Serie A","ITA",0,2,3,5,2.2,3.9,29,27.6
+"220","Inter Milan ","Benjamin Pavard",4e+07,"DF",23,21,1672,18.6,0,28,NA,"2023-2024","Serie A","FRA",0,0,2,2,0.7,1.4,15,33.3
+"221","Atalanta ","Charles De Ketelaere",3.8e+07,"MF",NA,25,2026,22.5,0.44,23,NA,"2023-2024","Serie A","BEL",1,10,8,18,7.1,6.1,44,54.5
+"222","Genoa ","Mateo Retegui",3.5e+07,"FW",29,26,2216,24.6,0.28,25,NA,"2023-2024","Serie A","ITA",1,7,2,9,5.8,0.7,62,35.5
+"223","Fiorentina ","Nicolás González",3.5e+07,"MF",29,21,1913,21.3,0.56,26,NA,"2023-2024","Serie A","ARG",1,12,2,14,10.4,1.6,84,39.3
+"224","AC Milan ","Mike Maignan",3.5e+07,"GK",NA,29,2609,29,0,29,NA,"2023-2024","Serie A","FRA",0,0,1,1,0,0.3,0,NA
+"225","Inter Milan ","Davide Frattesi",3.2e+07,"MF",32,6,955,10.6,0.57,25,NA,"2023-2024","Serie A","ITA",0,6,3,9,7.1,1.9,32,40.6
+"226","Inter Milan ","Yann Aurel Bisseck",3e+07,"DF",16,9,904,10,0.2,23,NA,"2023-2024","Serie A","GER",0,2,0,2,0.9,0.5,12,33.3
+"227","Atalanta ","Gianluca Scamacca",3e+07,"FW",NA,17,1453,16.1,0.74,25,NA,"2023-2024","Serie A","ITA",0,12,6,18,6.5,3.9,60,43.3
+"228","Atalanta ","Isak Hien",3e+07,"MF",NA,9,937,10.4,0,25,NA,"2023-2024","Serie A","SWE",0,0,1,1,0.2,0.1,4,50
+"229","Atalanta ","Isak Hien",3e+07,"MF",NA,9,937,10.4,0,25,NA,"2023-2024","Serie A","SWE",0,0,1,1,0.2,0.1,4,25
+"230","Atalanta ","Isak Hien",3e+07,"MF",10,9,864,9.6,0,25,NA,"2023-2024","Serie A","SWE",0,0,0,0,0.4,0,4,50
+"231","Atalanta ","Isak Hien",3e+07,"MF",10,9,864,9.6,0,25,NA,"2023-2024","Serie A","SWE",0,0,0,0,0.4,0,4,25
+"232","Juventus ","Moise Kean",3e+07,"FW",19,8,654,7.3,0,24,NA,"2023-2024","Serie A","ITA",0,0,0,0,2.1,0.7,16,18.8
+"233","Napoli ","Stanislav Lobotka",2.8e+07,"MF",38,38,3282,36.5,0,29,NA,"2023-2024","Serie A","SVK",0,0,1,1,0.6,1.3,14,28.6
+"234","Juventus ","Manuel Locatelli",2.8e+07,"MF",36,34,3008,33.4,0.03,26,NA,"2023-2024","Serie A","ITA",0,1,4,5,1.3,1.4,24,12.5
+"235","Lazio ","Mario Gila",2.8e+07,"DF",21,21,1809,20.1,0,24,NA,"2023-2024","Serie A","ESP",0,0,0,0,0.5,0.5,8,25
+"236","Torino ","Samuele Ricci",2.8e+07,"MF",NA,28,2395,26.6,0.04,23,NA,"2023-2024","Serie A","ITA",0,1,2,3,1.3,2.3,30,16.7
+"237","AC Milan ","Pierre Kalulu",2.6e+07,"DF",NA,4,374,4.2,0,24,NA,"2023-2024","Serie A","FRA",0,0,0,0,0.1,0.1,2,0
+"238","Genoa ","Radu Drăgușin",2.5e+07,"DF",19,19,1710,19,0.11,22,NA,"2023-2024","Serie A","ROU",0,2,1,3,1,0.8,17,23.5
+"239","Fiorentina ","Nikola Milenković",2.5e+07,"DF",34,27,2510,27.9,0,27,NA,"2023-2024","Serie A","SRB",0,0,0,0,0.4,0.7,10,30
+"240","Juventus ","Adrien Rabiot",2.5e+07,"MF",31,30,2651,29.5,0.17,29,NA,"2023-2024","Serie A","FRA",0,5,3,8,3.5,4.1,38,42.1
+"241","Juventus ","Federico Gatti",2.5e+07,"DF",32,30,2637,29.3,0.14,26,NA,"2023-2024","Serie A","ITA",0,4,0,4,5.5,1.5,35,20
+"242","Lazio ","Nicolò Rovella",2.5e+07,"MF",23,16,1318,14.6,0,22,NA,"2023-2024","Serie A","ITA",0,0,2,2,0.6,0.5,5,20
+"243","Bologna ","Dan Ndoye",2.5e+07,"FW",NA,20,1771,19.7,0.05,24,NA,"2023-2024","Serie A","SUI",0,1,1,2,4.9,1.8,41,39
+"244","Roma ","Romelu Lukaku",2.5e+07,"FW",NA,30,2641,29.3,0.44,31,NA,"2023-2024","Serie A","BEL",0,13,3,16,9.8,2.4,64,42.2
