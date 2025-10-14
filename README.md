@@ -20,21 +20,21 @@
 
   ### Correlation Tests and Feature Selection
       
-      A Pearson correlation threshold was used to filter high-impact variables:
+    A Pearson correlation threshold was used to filter high-impact variables:
 
-        For offensive players, metrics such as Goals + Assists (G+A), Expected Contribution (xG + xAG), and total shots were strongly correlated with value.
-        For midfielders, top features included Assists, Key Passes, Progressive Passes, and xAG.
-        For defenders, stats like Tackles in the Attacking Third, Pass Blocks, and Clearances were selected.
+      - For offensive players, metrics such as Goals + Assists (G+A), Expected Contribution (xG + xAG), and total shots were strongly correlated with value.
+      - For midfielders, top features included Assists, Key Passes, Progressive Passes, and xAG.
+      - For defenders, stats like Tackles in the Attacking Third, Pass Blocks, and Clearances were selected.
 
 
   ### Modeling 
 
-      Linear Regression
+     Linear Regression
 
           Linear regression was chosen for its ability to expose direct linear relationships between features and market value. Both raw value and log-transformed
       value models were tested. Log transformation was applied to stabilize variance and manage skewed distributions.
     
-      Random Forest Regression
+     Random Forest Regression
         
           Random Forest Regression was used to capture nonlinear relationships and feature interactions. Random Forest models tend to perform better when the 
       relationship between inputs and target is complex or hierarchical. They also provide feature importance metrics, which were visualized to understand which stats most influenced         predictions.
