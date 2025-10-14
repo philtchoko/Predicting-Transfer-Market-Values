@@ -16,14 +16,41 @@
     Defense Dataset - Included stats such as tackles, interceptions, and blocks.
 
 
-#ML
+## Methodology
 
-  Random Forest
+  ### Correlation Tests and Feature Selection
+      
+      A Pearson correlation threshold was used to filter high-impact variables:
 
-  Logistic Regression
+        For offensive players, metrics such as Goals + Assists (G+A), Expected Contribution (xG + xAG), and total shots were strongly correlated with value.
+        For midfielders, top features included Assists, Key Passes, Progressive Passes, and xAG.
+        For defenders, stats like Tackles in the Attacking Third, Pass Blocks, and Clearances were selected.
 
-#App
 
-  Final app produced in streamlit. 
+  ### Modeling 
+
+      Linear Regression
+
+          Linear regression was chosen for its ability to expose direct linear relationships between features and market value. Both raw value and log-transformed
+      value models were tested. Log transformation was applied to stabilize variance and manage skewed distributions.
+    
+      Random Forest Regression
+        
+          Random Forest Regression was used to capture nonlinear relationships and feature interactions. Random Forest models tend to perform better when the 
+      relationship between inputs and target is complex or hierarchical. They also provide feature importance metrics, which were visualized to understand which stats most influenced         predictions.
+
+  
+
+## Results
+
+    Final app produced in streamlit. 
+
+## Citations
+
+  Zivkovic J (2022). _worldfootballR: Extract and Clean World Football (Soccer) Data_. R package version
+  0.6.2, <https://CRAN.R-project.org/package=worldfootballR>.
+  How does a football transfer work? (2022, February 25). https://www.bbc.com/worklife/article/20170829-how-does-a-football-transfer-work
+  Transfermarkt. (n.d.). Football transfers, rumours, market values and news. https://www.transfermarkt.com/
+
 
 
