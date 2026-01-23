@@ -6,14 +6,21 @@
 
 ## Data
 
-  The data related to player performance was webscraped via the worldfootballR package which contained data from FBref, a website with different markers related to Offense, Midfield, and Defense
+Player performance data was collected using the `worldfootballR` package, which aggregates statistics from FBref.
 
-    Offense Dataset  - Included stats relevant to forwards ( goals, shots, expected goals).
-      
+**Dataset Summary:**
 
-    Midfield Dataset - Focused on playmaking metrics (e.g., assists, key passes, progressive passes).
+- Total players: ~750
+- Leagues: Top 5 European leagues (Premier League, La Liga, Bundesliga, Serie A, Ligue 1)
+- Features: 40+ performance metrics per player
+- Target variable: Market Value (€), sourced from Transfermarkt
 
-    Defense Dataset - Included stats such as tackles, interceptions, and blocks.
+**Position-Specific Datasets:**
+
+- Offense: goals, shots, xG, assists
+- Midfield: key passes, progressive passes, xA
+- Defense: tackles, interceptions, blocks
+
 
 
 ## Methodology
