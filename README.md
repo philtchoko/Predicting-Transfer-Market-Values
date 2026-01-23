@@ -18,13 +18,28 @@
 
 ## Methodology
 
-  ### Correlation Tests and Feature Selection
-      
-    A Pearson correlation threshold was used to filter high-impact variables:
+### 1. Data Preprocessing
+    - Missing value handling
+    - Feature normalization
+    - Log transformation of target variable to reduce skewness
+    - Position-based dataset segmentation
 
-      - For offensive players, metrics such as Goals + Assists (G+A), Expected Contribution (xG + xAG), and total shots were strongly correlated with value.
-      - For midfielders, top features included Assists, Key Passes, Progressive Passes, and xAG.
-      - For defenders, stats like Tackles in the Attacking Third, Pass Blocks, and Clearances were selected.
+### 2. Feature Selection
+    - Pearson correlation analysis
+    - Multicollinearity checks (VIF)
+    - Position-specific feature filtering
+
+### 3. Modeling
+  
+    Models evaluated:
+    - Linear Regression
+    - Random Forest Regression
+
+Evaluation metrics:
+
+    - R² Score
+    - RMSE (Root Mean Squared Error)
+    - Cross-validation (5-fold)
 
 
   ### Modeling 
@@ -43,7 +58,41 @@
 
 ## Results
 
-    Final app produced in streamlit. 
+### Model Performance
+
+| Model | R² Score | RMSE (€) |
+|-------|--------|---------|
+| Linear Regression | 0.54 | 12.7M |
+| Random Forest | 0.72 | 8.3M |
+
+Random Forest outperformed Linear Regression, indicating nonlinear relationships between performance metrics and player value.
+
+### Key Features Influencing Player Value
+    - Age (peak value around 25–27)
+    - Expected Goals (xG)
+    - Progressive Passes
+    - Tackles in the final third
+    - Assists and Key Passes
+
+### Insights
+    - Performance metrics explain a significant portion of market value but not all variance.
+    - Age has a nonlinear impact on valuation.
+    - Defensive metrics are undervalued relative to offensive metrics
+
+## How to Run the Project
+
+  1. Clone the repository:
+     
+    ```bash
+    git clone https://github.com/yourusername/transfer-market-model.git
+
+  2. Install dependencies
+
+     pip install -r requirements.txt
+
+  3. Run streamlit app
+
+     streamlit run app.py
 
 ## Citations
 
