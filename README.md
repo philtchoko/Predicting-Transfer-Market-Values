@@ -91,7 +91,7 @@ Random Forest outperformed Linear Regression, indicating nonlinear relationships
   1. Clone the repository:
      
     ```bash
-    git clone https://github.com/yourusername/transfer-market-model.git
+    git clone https://github.com/philtchoko/transfer-market-model.git
 
   2. Install dependencies
 
